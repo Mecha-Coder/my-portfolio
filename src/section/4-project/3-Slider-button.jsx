@@ -2,7 +2,7 @@ import React from 'react'
 
 function Button(props){
   return(
-    <div>
+    <div className={`slider-btn ${props.pos}`}>
       {props.component}
     </div>
   );

@@ -21,10 +21,12 @@
 }
 
 .logo-img img{
+  border: 1px Solid black;
   height: 68%
 }
 
 .logo-name{
+  border: 1px Solid black;
   font-family:Arial;
 
   margin-left: 6px;
@@ -32,6 +34,7 @@
 }
 
 .logo-name span{
+  border: 1px Solid black;
   font-family:Arial;
   font-weight: bold;
 
@@ -40,18 +43,20 @@
 }
 
 .nav-container{
+  border: 1px Solid black;
   display: flex;
   flex-direction: column;
   position: fixed;
   gap:4px;
 
-  transform: translateY(-50%);
+  translate: 0px -50%  0px;
   top: 50vh;
   right:-5px;
   z-index: 1000;
 }
 
 .tab{
+  border: 1px Solid black;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -17,11 +17,13 @@
 }
 
 .skill-container{
+  border: 1px Solid black;
   display: flex;
   align-items: center;
 }
 
 .skill-detail{
+  border: 1px Solid black;
   margin-left: 10px;
   font-weight: bold;
 }

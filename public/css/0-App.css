@@ -17,6 +17,7 @@
 }
 
 .title{
+  border: 1px Solid black;
   font-weight: bold;
   font-size: 36pt;
 }

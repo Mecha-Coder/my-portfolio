@@ -17,6 +17,7 @@
 }
 
 .intro-hi{
+  border: 1px Solid black;
   padding: 0px 6px;
   height: 36pt;
 }

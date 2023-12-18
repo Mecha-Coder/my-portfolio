@@ -3,7 +3,57 @@
   height: 100vh;
 
   position: relative;
+}
+
+.slider-container{
+  border: 1px Solid black;
+  position: absolute;
+  
+  translate: -50% 0px 0px;
+  top: 140px;
+  left: 50%
+}
+
+.project-detail{
+  border: 1px Solid black;
+  width: 1000px;
+  height: 600px;
+}
+
+.slider-btn{
+  border: 1px Solid black;
+  position: absolute;
   display: flex;
-  justify-content: center;
+  padding: 10px;
+  border-radius: 50%;
+  top: 50%;
+}
+
+.slider-btn.left{
+  left: 0;
+  translate: -150% -50% 0px;
+}
+
+.slider-btn.right{
+  right: 0;
+  translate: 150% -50% 0px;
+}
+
+.index-nav{
+  border: 1px Solid black;
+  position: absolute;
+  display: flex;
+  gap: 40px;
+
+  top: 102%;
+  left: 50%;
+  translate: -50% 0px 0px;
+}
+
+.index-button{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
 }
 
