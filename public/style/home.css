@@ -17,18 +17,12 @@
 }
 
 .intro-hi{
-  border: 1px solid black;
-  font-weight: bold;
-  font-size: 36pt;
-  margin-bottom: 20px;
-}
-
-.intro-hi img{
   padding: 0px 6px;
   height: 36pt;
 }
 
 .intro-container p{
+  margin-top: 20px;
   border: 1px solid black; 
   width: 500px; 
 }

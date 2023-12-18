@@ -1,0 +1,45 @@
+.about-page{
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+
+  height: 100vh;
+  padding-left: 100px;
+}
+
+.about-page img{
+  border: 1px Solid black
+}
+
+.about-container{
+  border: 1px Solid black;
+  text-align: center;
+  width: 50%;
+}
+
+.about-container p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about-icon{
+  border: 1px Solid black;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  vertical-align: bottom;
+  margin-top: 20px;
+}
+
+.icon-style{
+  border: 1px Solid black;
+}
+
+.icon-style p {
+  border: 1px Solid black;
+  margin: 0px;
+}
+
+p.icon-margin{
+  margin-top: 10px;
+}

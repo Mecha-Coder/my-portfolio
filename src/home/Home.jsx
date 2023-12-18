@@ -5,8 +5,10 @@ function Home(){
     <div className="home-page">
     
     <div className="intro-container">
-      <div className="intro-hi">Hi
+    
+      <div className="title">Hi
         <img 
+          className="intro-hi"
           src="./img/Hi.gif"  
           alt="hi-gif"
         />
