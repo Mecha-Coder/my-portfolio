@@ -1,0 +1,9 @@
+.project-page{
+  background-color: lightgoldenrodyellow;
+  height: 100vh;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma;
+  font-size: 14pt;
+  }
+
+@font-face {
+  font-family: 'abys';
+  src: url(../font/Abys-Regular.otf);
+}
+
+/* Hide scrollbar without impacting scrollability */
+:root {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 36pt;
+}
+
+.header{
+  border: 1px Solid black;
+  position: absolute;
+
+  text-align: center;
+  padding-top: 40px;
+  top: 0px;
+  left: 0px;
+  right:0px;
+  
+}
+
+
+
+
