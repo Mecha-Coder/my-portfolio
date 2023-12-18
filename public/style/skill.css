@@ -2,3 +2,41 @@
   background-color: rgb(222, 255, 193);
   height: 100vh;
 }
+
+.skill-header{
+  border: 1px Solid black;
+  text-align: center;
+  padding-top: 40px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.show-skill{
+  border: 1px Solid black;
+  display: grid;
+  grid-auto-flow: column;
+  padding-left: 100px;
+  grid-template: repeat(6,80px) / repeat(2,300px);
+  column-gap: 20px;
+  row-gap: 24px;
+}
+
+.skill-container{
+  display: flex;
+  align-items: center;
+}
+
+.skill-detail{
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+
+.bar{
+  display: inline-block;
+  margin-right:5px;
+  border: 1px Solid black;
+  height: 6px;
+  width: 30px;
+  border-radius: 10px;
+}
